@@ -1,0 +1,31 @@
+.hero {
+  position: relative;
+  background: url("./img/batonchik.png") left 78% center no-repeat, url("./img/decoratelist.png") right bottom no-repeat;
+  background-color: #61c4d9;
+  height: 100vh;
+  min-height: 650px;
+  color: white;
+}
+
+.hero:before {
+  content: url("./img/9112666468327277757bg-compozition.svg");
+  position: absolute;
+  bottom: -40px;
+  right: 3%;
+}
+
+.hero:after {
+  content: url("./img/list_left.png");
+  position: absolute;
+  bottom: -30px;
+  left: 3%;
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
